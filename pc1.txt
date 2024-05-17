@@ -81,3 +81,43 @@ Assignment 5: Modify the script to handle errors, such as the directory already 
 3. Provide references for any external sources used.
 
 Submit your work in a single PDF document by end of Module.
+
+
+
+
+
+#!/bin/bash
+
+# Check if the correct number of arguments is provided
+if [[ $# -ne 4 ]]; then
+    echo "Usage: $0 input_file old_text new_text output_file"
+    exit 1
+fi
+
+# Assign arguments to variables
+input_file=$1
+old_text=$2
+new_text=$3
+output_file=$4
+
+# Check if the input file exists
+if [[ ! -f $input_file ]]; then
+    echo "The file '$input_file' does not exist."
+    exit 1
+fi
+
+# Use sed to replace old_text with new_text and save the result to the output file
+sed "s/$old_text/$new_text/g" "$input_file" > "$output_file"
+
+echo "Replaced all occurrences of '$old_text' with '$new_text' in '$input_file' and saved the result to '$output_file'."
+
+
+
+This is an example text file.
+The old_text appears several times in this file.
+Let's see if the old_text will be replaced correctly.
+This old_text should also be replaced.
+And finally, this is the last occurrence of old_text.
+
+
+
