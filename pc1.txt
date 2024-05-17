@@ -1,0 +1,83 @@
+72 Assignment 1: Ensure the script checks if a specific file (e.g., myfile.txt) exists in the current directory. If it exists, print "File exists", otherwise print "File not found".
+
+73
+
+74
+
+75
+
+76
+
+77
+
+78
+
+79
+
+80
+
+81
+
+82
+
+83
+
+84 Add a debugging mode that prints additional information when enabled.
+
+85
+
+86 Assignment 6: Given a sample log file, write a script using grep to extract all lines containing "ERROR". Use awk to print the date, time, and error message of each
+
+87 extracted line.
+
+88 Data Processing with sed
+
+89
+
+90 91 Assignment 7: Create a script that takes a text file and replaces all occurrences of "old_text" with "new_text". Use sed to perform this operation and output the result to a
+
+92 new file.
+
+93 Submission Guidelines:
+
+94
+
+95 concepts.
+
+96
+
+97
+
+98
+
+99
+
+100
+
+101
+
+102
+
+103
+
+C
+
+C
+
+Edit
+
+Assignment 2: Write a script that reads numbers from the user until they enter '0'. The script should also print whether each number is odd or even.
+
+Assignment 3: Create a function that takes a filename as an argument and prints the number of lines in the file. Call this function from your script with different filenames.
+
+Assignment 4: Write a script that creates a directory named TestDir and inside it, creates ten files named File1.txt, File2.txt, ... File10.txt. Each file should contain its filename as its content (e.g., File1.txt contains "File1.txt").
+
+Assignment 5: Modify the script to handle errors, such as the directory already existing or lacking permissions to create files.
+
+1. Ensure that each answer is clear, concise, and reflects an understanding of the core
+
+2. Diagrams can be hand-drawn and scanned or created using any digital drawing tool.
+
+3. Provide references for any external sources used.
+
+Submit your work in a single PDF document by end of Module.
